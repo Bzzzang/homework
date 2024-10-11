@@ -1,0 +1,40 @@
+img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.container {
+  margin: 200px 500px;
+  display: grid;
+  grid-template-columns: 64px 64px 64px 64px;
+  gap: 20px;
+}
+
+.item {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.active {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  float: right;
+  margin-top: 53px;
+  margin-right: 5px;
+  background-color: #4cfe88;
+}
+
+.inactive {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  float: right;
+  margin-top: 53px;
+  margin-right: 5px;
+  background-color: #dbdbdb;
+}
